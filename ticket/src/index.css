@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Averta-Regular';
+    src: url('./font/Averta-Regular.woff2') format('woff2');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Averta-SemiBold';
+    src: url('./font/Averta-SemiBold.woff2') format('woff2');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+
