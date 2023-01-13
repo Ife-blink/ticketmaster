@@ -25,11 +25,11 @@ function Carousel({seat}) {
         <div className='flex flex-row justify-between px-[13%] py-[3%] bg-[#026cdf] text-white'>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>SEC</h2>
-                <h1>R</h1>
+                <h1>P</h1>
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>ROW</h2>
-                <h1>4</h1>
+                <h1>8</h1>
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>SEAT</h2>
@@ -39,8 +39,8 @@ function Carousel({seat}) {
         <div className='relative'>
             <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-stretch' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white flex justify-center px-[10%] pt-[20%]'>
-                <h2 className='text-center pt-[17%]'>MANESKIN</h2>
-                <h2 className='text-center text-[0.8rem] pb-[5%]'> Lundi,Mars 13 8:00pm - Accor arena</h2>
+                <h2 className='text-center pt-[17%]'>AYA NAKAMURA</h2>
+                <h2 className='text-center text-[0.8rem] pb-[5%]'>Vendredi,Mai 26 8:00pm -Accor arena</h2>
             </div>
         </div>
         <div className='mt-[70%] mb-[10%] text-white w-[100%] px-[7%]'>

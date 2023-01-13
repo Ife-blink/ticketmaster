@@ -37,7 +37,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] mr-[4%] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h2>SEAT 5</h2>
+            <h2>SEAT 8</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
@@ -54,7 +54,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h2>SEAT 6</h2>
+            <h2>SEAT 9</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
@@ -87,7 +87,7 @@ function Ovelay() {
         </div>
         </div>
         <div className='flex flex-row justify-between w-[100%] px-[1%] my-[1%] sm:px-[2%] py-[5%]'>
-          <div><h1 className='text-[#00000080]'>Cat 1, Sec R, Row 4</h1></div>
+          <div><h1 className='text-[#00000080]'>Cat 1, Sec P, Row 8</h1></div>
           <div className='flex flex-row items-center'><IoTicket color="#00000060"/>{" "}<h2 className=' text-[#00000080]'>2 tickets</h2></div>
         </div>
         <div className='px-[1%] flex flex-row sm:px-[2%]'>
