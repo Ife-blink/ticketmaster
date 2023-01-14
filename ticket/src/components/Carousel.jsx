@@ -25,7 +25,7 @@ function Carousel({seat}) {
         <div className='flex flex-row justify-between px-[13%] py-[3%] bg-[#026cdf] text-white'>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>SEC</h2>
-                <h1>P</h1>
+                <h1>FOSSE</h1>
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>ROW</h2>
