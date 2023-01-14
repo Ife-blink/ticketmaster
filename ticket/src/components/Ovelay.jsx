@@ -37,7 +37,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] mr-[4%] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h2>SEAT 8</h2>
+            <h2>SEAT -</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
@@ -54,7 +54,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h2>SEAT 9</h2>
+            <h2>SEAT -</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
