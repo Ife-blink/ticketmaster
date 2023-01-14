@@ -87,7 +87,7 @@ function Ovelay() {
         </div>
         </div>
         <div className='flex flex-row justify-between w-[100%] px-[1%] my-[1%] sm:px-[2%] py-[5%]'>
-          <div><h1 className='text-[#00000080]'>Cat 1, Sec P, Row 8</h1></div>
+          <div><h1 className='text-[#00000080]'>Cat 1, Sec FOSSE, Row 8</h1></div>
           <div className='flex flex-row items-center'><IoTicket color="#00000060"/>{" "}<h2 className=' text-[#00000080]'>2 tickets</h2></div>
         </div>
         <div className='px-[1%] flex flex-row sm:px-[2%]'>
