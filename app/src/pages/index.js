@@ -25,6 +25,12 @@ export default function Home() {
       dayOfTheWeekDate
       date
       row
+      image {
+      id
+      url
+      height
+      handle
+      }
       seatOne
       seatTwo
       sec

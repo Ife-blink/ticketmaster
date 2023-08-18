@@ -13,6 +13,8 @@ function Carousel({seat, tickets}) {
         var slider = document.getElementById('slider' + rowId);
         slider.scrollLeft = slider.scrollLeft + 500;
       }
+  
+  console.log()
 
   return (
     <div>
@@ -35,7 +37,7 @@ function Carousel({seat, tickets}) {
             </div>
         </div>
         <div className='relative'>
-            <img src='fak.jpg' className='absolute z-1 h-[150px] w-[100%] object-stretch' />
+            <img src={`${tickets?.image.url}`} className='absolute z-1 h-[150px] w-[100%] object-stretch' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white justify-center px-[10%] pt-[20%]'>
                 <h2 className='text-center pt-[17%]'>{tickets?.artistName}</h2>
                 <h2 className='text-center text-[0.8rem] pb-[5%]'>{tickets?.dayOfTheWeekDate},{tickets?.date} {tickets?.time} -{tickets?.venue}</h2>
